@@ -1,0 +1,16 @@
+
+$grid-columns: 12;
+$grid-gutter-width: 1.5rem;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+$header-font: 'Poppins', sans-serif;
+
+$header-info-font: 'Oswald', sans-serif;
+$font-size: 60px;
