@@ -227,8 +227,6 @@ body {
 }
 
 .main-container .row .col {
-  width: 214px;
-  height: 222px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(196, 196, 196, 0)), color-stop(73.44%, rgba(23, 128, 155, 0.1)));
   background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, rgba(23, 128, 155, 0.1) 73.44%);
   margin: 10px;
@@ -451,8 +449,39 @@ body {
   color: #2E2B32;
 }
 
+.list {
+  height: 512px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list .img {
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(281.7deg, #302C34 11.23%, #59555D 42.92%, #4A474F 52.23%, #232224 94.08%);
+}
+
+.list ol#blue {
+  z-index: 2;
+}
+
+.list .list-demo-kit {
+  position: absolute;
+}
+
 .list .row {
-  max-height: 512px;
   background: linear-gradient(281.7deg, #302C34 11.23%, #59555D 42.92%, #4A474F 52.23%, #232224 94.08%);
 }
 
